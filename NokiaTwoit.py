@@ -20,16 +20,16 @@ while (True):
     print("13. SIM services")
     print("0. Exit phone")
 
-    choice = int(input(":  "))
+    choice = (input(":  "))
 
     match choice:
-        case 0:
+        case "0":
             choice = 0
             print("Omo finally")
             print("_-_-POWERING DOWN-_-_")
             break
 
-        case 1:
+        case "1":
             phonebookopt = 1
 
             while (phonebookopt != 0):
@@ -46,6 +46,7 @@ while (True):
                 print("9. Options")
                 print("10. Speed dials")
                 print("11. Voice tags")
+                print("0.  Back to menu")
 
                 phonebookopt = int(input(":  "))
 
@@ -113,9 +114,10 @@ while (True):
                         print("-> Back to MAIN MENU")
 
                     case _:
-                        print("Invalid input.")
+                        print("Guy Follow Instruction na!")
+                        print("Invalid Input sha.")
 
-        case 2:
+        case "2":
             messageopt = 1
 
             while (messageopt != 0):
@@ -229,10 +231,10 @@ while (True):
                     case _:
                         print("Invalid input.")
 
-        case 3:
+        case "3":
             print("-> Chat...")
 
-        case 4:
+        case "4":
             callregister = 1
 
             while (callregister != 0):
@@ -301,7 +303,7 @@ while (True):
                     case _:
                         print("Invalid input.")
 
-        case 5:
+        case "5":
             toneschoice = 1
 
             while (toneschoice != 0):
@@ -322,7 +324,7 @@ while (True):
                     print("-> Back to MAIN MENU")
                     break
 
-        case 6:
+        case "6":
             settingschoice = 1
 
             while (settingschoice != 0):
@@ -395,19 +397,19 @@ while (True):
                     case _:
                         print("Invalid input.")
 
-        case 7:
+        case "7":
             print("-> Call divert...")
 
-        case 8:
+        case "8":
             print("-> Games...")
 
-        case 9:
+        case "9":
             print("-> Calculator...")
 
-        case 10:
+        case "10":
             print("-> Reminders...")
 
-        case 11:
+        case "11":
             clockchoice = 1
 
             while (clockchoice != 0):
@@ -425,10 +427,10 @@ while (True):
                     print("-> Back to MAIN MENU")
                     break
 
-        case 12:
+        case "12":
             print("-> Profiles...")
 
-        case 13:
+        case "13":
             print("-> SIM services...")
 
         case _:
