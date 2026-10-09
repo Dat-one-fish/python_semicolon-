@@ -24,6 +24,7 @@ def show_main_menu():
     print("12. Profiles")
     print("13. SIM services")
     print("0. Exit phone")
+    print("99. Home")
 
 
 def show_home_option():
